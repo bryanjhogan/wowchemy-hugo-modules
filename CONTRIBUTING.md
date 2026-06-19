@@ -1,164 +1,141 @@
-# Contributing to Hugo Blox Builder
+# Contributing to HugoBlox
 
-Thanks for being interested in contributing! We’re so glad you want to help!
+[![Get Pro](https://img.shields.io/badge/Support-Get%20Pro-2ea44f?logo=heart)](https://hugoblox.com/pricing)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=github)](https://github.com/sponsors/gcushen)
+[![Star us](https://img.shields.io/github/stars/HugoBlox/kit?style=social)](https://github.com/HugoBlox/kit)
+[![Discord](https://img.shields.io/discord/722225264733716590?logo=discord)](https://discord.gg/z8wNYzb)
 
-We want contributing to Hugo Blox to be fun, enjoyable, and educational for anyone and everyone. All contributions are welcome, including new plugins (such as new widgets, shortcodes, theme packs, and language packs), templates, features, documentation as well as updates and tweaks, blog posts, YouTube tutorials, live streaming customizations, meetups, and more.
+---
 
-## Where to Start
+**HugoBlox exists to make academic publishing free, beautiful, and effortless — for every researcher on earth.**
 
-Join the **Contributing** channel on the **[community Discord](https://discord.gg/z8wNYzb)**.
+We power **100,000+ researcher websites**, research lab sites, and university project pages worldwide. Behind each one is a scientist, student, or lab trying to share their work. Behind HugoBlox is a community of contributors who made that possible.
 
-## General ways to help
+> [!NOTE]
+> **Love HugoBlox?** If it's helped you publish your research, launch your lab site, or build your academic presence — every contribution you make passes that forward to the next researcher who needs it. You're not just improving a tool. You're advancing open research.
 
-Whether or not you're a developer, there are plenty of non-technical ways that you can help. We always need help with:
+---
 
-- Helping the Hugo Blox community via the live [chat](https://discord.gg/z8wNYzb) and [forum](https://github.com/HugoBlox/hugo-blox-builder/discussions)
-- Investigating and reviewing open [Issues](https://github.com/HugoBlox/hugo-blox-builder/issues) and [Pull Requests](https://github.com/HugoBlox/hugo-blox-builder/pulls)
-  - Influence the roadmap! Give a thumbs up 👍 to upvote a feature request you would like to use
-- Improving the [documentation](https://docs.hugoblox.com/) and writing tutorials
-  - Just click the _Edit_ button at the bottom of pages or open an issue with your proposed improvement
-- Testing and quality assurance, such as checking the latest version of the templates work as you expect and fixing any dead-links etc.
-- Translating the Hugo Blox templates or the Hugo Blox documentation
-- Hosting local Hugo Blox themed events or meetups
-- Promoting Hugo Blox to others by blogging, vlogging, code streaming, talking etc.
+## Why Contribute?
 
-### For technical contributions
+### 🌍 Join the Movement
+- **Advance open research** — keep essential academic tools free and accessible worldwide
+- **Shape what millions of researchers use** — your changes land in sites across hundreds of universities
+- **Be part of something bigger** — HugoBlox is infrastructure for open science, not just a website builder
 
-Repository structure:
+### 🎓 Grow Your Career
+- **Add it to your CV** — open source contributions signal collaboration, craft, and initiative
+- **Build your public reputation** — every contribution is permanently credited and visible
+- **Level up with modern tech** — Hugo, Tailwind CSS v4, Preact, Go, and more
+- **Network globally** — connect with researchers, developers, and academics worldwide
 
-- modules
-  - The components and layouts which form the Hugo Blox page building framework that the templates depend on
-- scripts
-  - A collection of scripts for helping maintain the repository
-- starters
-  - The collection of starter templates (aka Hugo themes)
-  - To contribute an improvement to a starter template, make your changes to the relevant template within this folder. **Do not submit PRs to the dedicated template repositories as they are read-only.**
-- test
-  - a minimal site that is built by the CI on every commit to help test PRs
+---
 
-#### What are some good issues to contribute to?
+## ⚡ Quick Wins — Pick One!
 
-If you're a developer looking to contribute, but you're not sure where to begin, check out the [help wanted](https://github.com/HugoBlox/hugo-blox-builder/labels/help%20wanted) label on Github, which contains issues which need some love.
+Not every contribution requires code. Pick whatever fits your time:
 
-#### How can I propose an improvement?
+| Time | Action |
+|------|--------|
+| 30 sec | ⭐ [Star the repo](https://github.com/HugoBlox/kit) — helps more researchers discover HugoBlox |
+| 30 sec | 👍 [Upvote a feature](https://github.com/HugoBlox/kit/issues) you need |
+| 5 min | 🐛 [Report a bug](https://github.com/HugoBlox/kit/issues) with clear steps to reproduce |
+| 5 min | 💬 [Answer a question](https://discord.gg/z8wNYzb) in Discord |
+| 5 min | ✏️ Fix a documentation typo — hit **Edit** on any docs page |
+| 1 hr | 🔧 Pick a [help wanted issue](https://github.com/HugoBlox/kit/labels/help%20wanted) |
+| few hrs | 🧩 Contribute a significant feature or new block |
+| ongoing | 🎥 Create YouTube tutorials or blog posts |
 
-If you have a straightforward bug fix or improvement, feel free to contribute it in a [Pull Request](https://github.com/HugoBlox/hugo-blox-builder/pulls) for the community to review.
+---
 
-If you have an idea for a new feature, please start by [searching the issues](https://github.com/HugoBlox/hugo-blox-builder/issues) to check that the feature has not already been suggested and then suggest it by [opening a new issue](https://github.com/HugoBlox/hugo-blox-builder/issues/new/choose), as adding new features to Hugo Blox first requires some analysis around the design and spec.
+## 🛠️ Technical Setup
 
-Please be mindful of the project [scope](#scope).
+> [!IMPORTANT]
+> All technical documentation — commands, architecture, code conventions, commit message standards, and how to build blocks — lives in **[AGENTS.md](AGENTS.md)**. That file is the single source of truth for both human contributors and AI agents working in this repo.
 
-#### How can I contribute an improvement?
+**TL;DR:**
+```bash
+# 1. Install: Hugo Extended, Node.js, pnpm
+# 2. Clone and install deps
+pnpm install
 
-Learn [how to contribute code on Github](https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940).
-
-**⚡️ To make quick and easy contributions, you can browse the repository on GitHub and edit your changes in GitHub's online editor. GitHub will then open a Pull Request (PR) for your changes to be reviewed by the community. ⚡️**
-
-Otherwise, for larger changes, you can edit locally on your computer in your favorite editor, such as VSCode:
-
-**Download the repo**
-
-Fork (copy) the repo on GitHub and then clone (download) your fork to your computer:
-
-```sh
-git clone https://github.com/<YOUR_USERNAME>/hugo-blox-builder.git
+# 3. Start the dev server for a starter site
+pnpm dev academic-cv      # opens at http://localhost:8081
 ```
 
-**View a template**
+See [AGENTS.md](AGENTS.md) for the full guide: architecture, all commands, code standards, commit conventions, block creation, and schemas.
 
-[Install Yarn](https://yarnpkg.com/), the project's build system if necessary.
+---
 
-Then choose the starter template you wish to view, such as _minimal_:
+## 🤝 Types of Contributions
 
-```sh
-yarn view:local academic-cv
-```
+### Code & Blocks
+- **Fix a bug** — see [open issues](https://github.com/HugoBlox/kit/issues)
+- **Build a new block** — see the block guide in [AGENTS.md](AGENTS.md)
 
-Note that Hugo Server can occasionally stop working after changes are made (sometimes showing unrelated errors). If this happens, stop Hugo (Control-C) and restart it with the `yarn view:local ...` command above.
+### Content & Community
+- **[Contribute a shortcode](https://github.com/HugoBlox/create-shortcode)**
+- **[Contribute a language pack](https://docs.hugoblox.com/reference/language/#create-or-modify-a-language-pack)** — place in `modules/blox/i18n/` and add metadata to `modules/blox/data/languages.yaml`
+- **[Contribute a theme pack](https://docs.hugoblox.com/getting-started/customize/#appearance)** — color and font themes
+- **Contribute a template** — duplicate the [Link In Bio](https://github.com/HugoBlox/kit/tree/main/templates/link-in-bio) template as a starting point, then reach out on Discord
 
-**Implement your improvements**
+> [!NOTE]
+> To contribute to a template, make changes inside `templates/` in this monorepo. **Do not submit PRs to the dedicated template repositories** — they are read-only and changes propagate there automatically.
 
-Implement you changes and then check for any linting or formatting issues.
+### Docs & Education
+- Improve the [documentation](https://docs.hugoblox.com/) — open a GitHub Issue with your suggested changes
+- Write tutorials or blog posts
+- Create YouTube walkthroughs
 
-Code linting and formatting form part of the Continuous Integration process to help catch bugs and code issues in contributions.
+---
 
-Contributors can also run the flow on their fork of the "Hugo Blox Builder" repo when making contributions (you'll need Node and Yarn to run):
+## 🔄 PR Process
 
-```sh
-yarn install
-yarn run lint
-yarn run format
-```
+1. **Search first** — check [issues](https://github.com/HugoBlox/kit/issues) and [PRs](https://github.com/HugoBlox/kit/pulls) to avoid duplicate work
+2. **Open an issue first** for significant new features — discuss design before building
+3. **Test locally** — `pnpm dev academic-cv` before submitting
+4. **Run quality checks** — `pnpm code:fix && pnpm style:fix && pnpm format`
+5. **Write a clear commit message** — see commit conventions in [AGENTS.md](AGENTS.md)
 
-**Open a Pull Request with your changes**
+> [!TIP]
+> For a simple bug fix or typo? Just open a PR directly — no issue needed.
 
-Use git to push (upload) your changes to GitHub and then open a Pull Request (PR) at https://github.com/HugoBlox/hugo-blox-builder/pulls
+---
 
-Please be mindful of the project [scope](#scope).
+## 💬 Getting Help
 
-### Contribute Blox
+- **[Discord #contributing](https://discord.gg/z8wNYzb)** — real-time help
+- **[GitHub Discussions](https://github.com/HugoBlox/kit/discussions)** — async Q&A and show-and-tell
+- **[GitHub Issues](https://github.com/HugoBlox/kit/issues)** — bugs and feature requests
 
-[Create and publish your own blox](https://github.com/HugoBlox/create-blox)
+**When reporting a bug, include:** Hugo version, HugoBlox version (from `go.mod`), OS, and browser — plus the smallest example that reproduces it.
 
-### Contribute a shortcode
+---
 
-[Create and publish your own shortcode](https://github.com/HugoBlox/create-shortcode)
+## 🏆 Recognition
 
-### Contribute a language pack
+Contributors are:
+- **Named in release notes**
+- **Featured on our social media**
+- **Visible on the [contributors page](https://github.com/HugoBlox/kit/graphs/contributors)**
 
-To contribute a **new language pack** or an improvement to a language pack, refer to the [language pack guide](https://docs.hugoblox.com/reference/language/#create-or-modify-a-language-pack). Once created, [fork Hugo Blox Builder](https://github.com/HugoBlox/hugo-blox-builder), place your language pack in `blox-tailwind/i18n/`, add the name of the language to `blox-tailwind/data/i18n/language.yaml`, and open a Pull Request on Github with these two files.
+---
 
-### Contribute a theme pack
+## 💚 Can't Contribute Code?
 
-[View the guide](https://docs.hugoblox.com/getting-started/customize/#appearance) to contributing a color and font theme pack.
+- **[Get Pro](https://hugoblox.com/pricing)** — enhance your productivity with automations whilst supporting HugoBlox
+- **[GitHub Sponsors](https://github.com/sponsors/gcushen)** — monthly support for open source development
+- **☕ [Buy a coffee](https://github.com/sponsors/gcushen?frequency=one-time)**
+- **📢 Share your site** on X/LinkedIn/Reddit with `#HugoBlox`
 
-### Contribute a template
+---
 
-Consider duplicating a bare-bones template, such as the [Link In Bio](https://github.com/HugoBlox/hugo-blox-builder/tree/main/starters/link-in-bio) folder, and building up your own template using the Hugo Blox. Reach out on the **Contributing** channel in Discord to submit your template.
+## ⚖️ Contributor License Agreement
 
-### Contribute to the Publication importer
+By submitting a Pull Request, you agree to our [CLA](.github/CLA.md). In short: you keep ownership of your code; we get a permanent license to use it as part of HugoBlox. This is standard practice in professional open source and protects both you and the project.
 
-To contribute to **Hugo Academic CLI**, the automatic publication and blog post importer, refer to [its dedicated Github repository](https://github.com/GetRD/academic-file-converter) and Issue queue.
+---
 
-## Become a backer
+_Questions? Join our [Discord](https://discord.gg/z8wNYzb) or start a [Discussion](https://github.com/HugoBlox/kit/discussions)._
 
-To help us develop this free software sustainably under the open source license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship:
-
-- ☕️ [**Donate a coffee**](https://github.com/sponsors/gcushen?frequency=one-time)
-- ❤️ [**Become a sponsor and unlock awesome rewards**](https://hugoblox.com/sponsor/)
-
-## Best practices
-
-To create a consistent experience for all contributors and help prevent bugs, we have some best practices.
-
-### Conventional Commits Specification
-
-Please follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/).
-
-For example:
-
-- new feature: `feat: add the X parameter`
-- bug fix: `fix: typo in implementation of X parameter`
-- docs: `docs: document the X parameter`
-- style: `style: change font color from black to blue`
-- build-related: `chore: rebuild JS assets`
-
-### Linting and formatting
-
-```sh
-yarn install
-yarn run lint
-yarn run format
-```
-
-## Scope
-
-Please be _mindful_ that although we encourage feature requests, we cannot expand the scope of the project in every possible direction. There will be feature requests that don't make the roadmap.
-
-Every feature requires effort not just to analyse the requirements, design it, implement it, test it, document it, merge it, write release notes for it, and release it, but also to continuously support users with it and maintain it (fixing and refactoring the feature as the project and its dependencies evolve).
-
-The more regular active volunteers (rather than one-off contributors) we have supporting users and maintaining the project, the more feasible it becomes to expand the scope of the project.
-
-The project's scope also has to be constrained so that it doesn't get too complex and unwieldy, from an architectural perspective, a testing perspective, and from a usability perspective.
-
-Plugins (widgets, shortcodes, theme packs, language packs, and third-party JavaScript integrations) as well as templates allow the community to add major features without needing to contribute to Hugo Blox itself.
+_This project follows the [Contributor Covenant Code of Conduct](.github/CODE_OF_CONDUCT.md)._

@@ -1,111 +1,266 @@
 [**English**](./README.md)
 
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="./.github/media/sharing.png" alt="Hugo Blox Builder 网站构建工具"></a></p>
+<p align="center">
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=hero">
+    <img src="./.github/media/hero.zh.png" alt="HugoBlox —— AI 生成、Markdown 拥有的专业站点" width="100%">
+  </a>
+</p>
 
-[![开始使用](https://img.shields.io/badge/-开始使用-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)
-[![GitHub 赞助者](https://img.shields.io/github/sponsors/gcushen?label=%E2%9D%A4%EF%B8%8F%20赞助&style=for-the-badge)](https://github.com/sponsors/gcushen)
-[![Twitter 关注者](https://img.shields.io/twitter/follow/GetResearchDev?label=关注Twitter&style=for-the-badge)](https://twitter.com/GetResearchDev)
-[![GitHub 关注者](https://img.shields.io/github/followers/gcushen?label=关注GH&style=for-the-badge)](https://github.com/gcushen)
+<h1 align="center">描述你的站点，AI 帮你搭建，Markdown 永远归你。</h1>
 
-# [Hugo Blox Builder](https://hugoblox.com): 全能网站构建工具
+<p align="center">
+  <strong>HugoBlox 是基于结构化 Markdown 构建专业站点的开源框架 —— 落地页、作品集、博客、学术主页、文档等，一应俱全。</strong><br/>
+  选择模板，用 <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=tagline">Hugo Chat AI</a> 生成页面，部署到任何平台。每个文件都是你能阅读、编辑、永久拥有的纯 Markdown。
+</p>
 
-### 加入 750,000+ 站点。零代码。轻松创建面向未来的网站✏️ 📰 🚀
+<p align="center">
+  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>用 AI 生成页面</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>浏览模板</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable"><b>Ownable CMS (VS Code)</b></a>
+</p>
 
-🔥 **1. 使用 [Hugo](https://github.com/gohugoio/hugo) 引擎支持的模块，免费创建_任何_类型的网站** - 从登录页面、知识库和课程到专业简历、会议和技术博客
+<div align="center">
 
-🎨 **2. 个性化**漂亮的起始模板，享有**50+种浅色/深色主题、多语言包和模块**
+  <a href="https://github.com/HugoBlox/kit">
+    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=%E7%82%B9%E8%B5%9E%20GitHub&logo=github&logoColor=white&style=flat-square&color=181717" alt="GitHub Stars">
+  </a>
+  <a href="https://discord.gg/z8wNYzb">
+    <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable">
+    <img src="https://img.shields.io/open-vsx/dt/ownable/ownable?label=VS%20Code%20%E5%AE%89%E8%A3%85%E9%87%8F&logo=visualstudiocode&logoColor=white&style=flat-square&color=007ACC" alt="VS Code 安装量">
+  </a>
+  <a href="https://open-vsx.org/extension/Ownable/ownable">
+    <img src="https://img.shields.io/open-vsx/stars/ownable/ownable?label=VS%20Code%20%E8%AF%84%E5%88%86&logo=visualstudiocode&logoColor=white&style=flat-square&color=007ACC" alt="VS Code 评分">
+  </a>
+  <a href="https://x.com/GoOwnable">
+    <img src="https://img.shields.io/twitter/follow/GoOwnable?label=%E5%85%B3%E6%B3%A8&logo=x&logoColor=white&style=flat-square&color=000000" alt="关注 X">
+  </a>
 
-🛋 **3. 可选地，使用基于 [Decap CMS](https://docs.hugoblox.com/getting-started/cms/decap/) 的开源内容管理系统（CMS），随时随地从沙发上或外出写作**
-
-<p style="text-align: center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="./.github/media/write-from-phone.gif" alt="Decap CMS"></a></p>
-
-[查看最新的 **演示**](https://hugoblox.com/templates/)，在不到 60 秒内获取您将获得的内容，或者获得其他创作者的 [**灵感**](https://hugoblox.com/creators/)。
-
-- 👉 [**开始使用**](https://hugoblox.com/templates/)
-- 📚 [查看 **文档**](https://docs.hugoblox.com/)
-- 🙋‍♀️ **有问题吗？**
-  - **立即在 [Discord](https://discord.gg/z8wNYzb) 上与我们聊天**，或浏览 [故障排除指南](https://docs.hugoblox.com/reference/troubleshooting/) 和 [问答论坛](https://github.com/HugoBlox/hugo-blox-builder/discussions)
-  - _此外，查看 [Hugo 论坛](https://discourse.gohugo.io) 解决 Hugo 相关问题，以及 [Netlify 论坛](https://answers.netlify.com/) 解答 Netlify 相关问题_
-- 🐦 与社区共享您的 Hugo Blox Builder 网站：[@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [参加调查，帮助我们改进 #开源](https://forms.gle/NioD9VhUg7PNmdCAA)
-- ⬆️ **更新？** 查看 [更新指南](https://docs.hugoblox.com/reference/update/) 和 [发布说明](https://github.com/HugoBlox/hugo-blox-builder/releases)
-- 🚀 [贡献改进](CONTRIBUTING.md) 或 [建议改进](https://github.com/HugoBlox/hugo-blox-builder/issues)
-
-## 💙 我们向您恳请支持这个开源运动
-
-今天我们请求您捍卫 Hugo Blox Builder 网站构建工具和主题的开源独立性 🐧
-
-我们是一个**开源和开放科学的运动**，依靠您的支持来保持在线和繁荣，但我们的 99.9% 的创作者没有做出贡献，他们只是选择置之不理 🤦🏻‍♀️
-
-### [😍️ 点击此处成为 GitHub 赞助者，解锁令人惊叹的特权，如 _独家模板、小部件和教程_](https://github.com/sponsors/gcushen)
-
-### 商业赞助者
-
-<div style="display: grid; column-gap: 50px; grid-template-columns: repeat(3, 1fr);">
-  <div style="display: flex; align-items: center;">
-    <a href="https://www.netlify.com/" target="_blank"><img src=".github/media/sponsors/netlify.svg" alt="" height="40" width="147" style="display: inline-block;"></a>
-  </div>
-  <div>
-    <a href="https://github.com/sponsors/gcushen"><img src=".github/media/sponsors/your-logo-here.png" alt="" style="display: inline-block;"></a>
-  </div>
 </div>
 
-## 起始模板
+<p align="center">
+  <sub>
+    始于 <strong>2016</strong> · 全球 <strong>150,000+</strong> 站点 (Meta, Stanford, NVIDIA) · 用户评分 <strong>4.9/5</strong>（官方调研）· <a href="https://research.nvidia.com/research-labs">NVIDIA Research</a>、<a href="https://www.metaconscious.org/">MIT</a>、<a href="https://cai4cai.ml/">King's College London</a> 等团队在用 · 入选 <a href="https://github.blog/open-source/release-radar-february-2019/#hugo-academic-4-0">GitHub Release Radar</a>
+  </sub>
+</p>
 
-Hugo Blox Builder 是一个使用**小部件**创建_任何_类型网站的**零代码**框架。每个网站都是 100% 可自定义，使其成为您的专属网站！
+<!-- TODO: Replace with demo video -->
+<!-- https://github.com/user-attachments/assets/REPLACE_ME -->
 
-选择一个起始模板，轻松上手：
+---
 
-[![撰写技术内容](./.github/media/starters.webp)](https://hugoblox.com/templates/)
+## ⚡ 三步上线
 
-## 技术内容撰写的未来
+<table>
+<tr>
+<td width="33%" align="center">
 
-使用标准化的 Markdown 和捆绑的扩展（包括数学和图表）**编写丰富、具备未来性的内容**。可以在开源 CMS 中编辑，也可以通过在线的 GitHub 编辑器、Jupyter Notebook 或 RStudio 进行编辑！[了解更多](https://docs.hugoblox.com/reference/markdown/)
+**1. 🎨 选一个模板**
 
-[![撰写技术内容](https://hugoblox.com/uploads/readmes/writing-technical-content.gif)](https://academic-demo.netlify.app/post/writing-technical-content/)
+从[模板库](https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=how_it_works)中挑选，或用 CLI 脚手架。
 
-## 特点
+落地页、作品集、博客、科研站、文档 —— 秒级就绪。
 
-[![截图](./.github/media/academic.png)](https://hugoblox.com/templates/)
+</td>
+<td width="33%" align="center">
 
-**主要特点：**- **页面构建器** - 使用[小部件](https://docs.hugoblox.com/getting-started/page-builder/)和[元素](https://docs.hugoblox.com/reference/markdown/)创建_任何东西_
-- **编辑任何类型的内容** - 博客文章、出版物、演讲、幻灯片、项目等等！
-- 使用 [**Markdown**](https://docs.hugoblox.com/reference/markdown/)、[**Jupyter**](https://docs.hugoblox.com/getting-started/cms/) 或 [**RStudio**](https://docs.hugoblox.com/getting-started/cms/rstudio/) 创建内容
-- **插件系统** - 完全可定制的[**颜色**和**字体主题**](https://docs.hugoblox.com/getting-started/customize/#appearance)
-- **显示代码和数学公式** - 支持代码高亮和[LaTeX数学](https://docs.hugoblox.com/reference/markdown/#math)
-- **集成** - [Google Analytics](https://analytics.google.com)、[Disqus评论](https://disqus.com)、地图、联系表单等等！
-- **美丽的网站** - 简单清爽的单页设计
-- **行业领先的SEO** - 帮助您的网站在搜索引擎和社交媒体上被发现
-- **媒体图库** - 在可定制的图库中显示带标题的图像和视频
-- **移动友好** - 适用于各种屏幕的移动友好版本，外观令人惊艳
-- **多语言** - 35+语言包，包括英文、中文和葡萄牙文
-- **多用户** - 每个作者都有自己的个人资料页面
-- **隐私保护套件** - 协助符合GDPR
-- **脱颖而出** - 使用动画、视差背景和滚动效果使您的网站生动起来
-- **一键部署** - 无需服务器、无需数据库，只有文件。
+**2. ✨ 用 AI 生成页面**
 
-## 主题
+打开 [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=how_it_works)，用自然语言描述你要什么。
 
-Hugo Blox Builder内置了**自动白天（浅色）和黑夜（暗色）模式**。或者，单击[Demos](https://hugoblox.com/templates/)右上角的月亮图标设置您喜欢的模式！
+*"帮我生成一个带首屏、定价和用户评价的落地页"* —— 搞定。
 
-为您的网站选择一个惊艳的主题，并[自定义它](https://docs.hugoblox.com/getting-started/customize/#custom-theme)以满足您的喜好：
+</td>
+<td width="33%" align="center">
 
-[![主题](./.github/media/themes.png)](https://hugoblox.com/templates/)
+**3. 🚀 部署到任何平台**
 
-[浏览更多模板和主题...](https://hugoblox.com/templates/)
+推送到 GitHub，部署到 Netlify、Vercel、Cloudflare 或任何静态托管。
 
-## 生态系统
+无数据库，无运行时，免费托管。
 
-- [**Academic File Converter**](https://github.com/GetRD/academic-file-converter)：自动将学术出版物从BibTeX导入到Markdown文件
-- [**Awesome Hugo**](https://github.com/HugoBlox/awesome-hugo)：帮助将内容迁移到Hugo的新版本的脚本
+</td>
+</tr>
+</table>
 
-## 加入社区
+---
 
-请随意在Github上[_star_该项目](https://github.com/HugoBlox/hugo-blox-builder)，在Discord上[join the community](https://discord.gg/z8wNYzb)，并关注Twitter上的[@GetResearchDev](https://twitter.com/GetResearchDev)，第一时间获取新功能的消息。
+## 🏆 为什么选 HugoBlox
+
+其他工具让你做选择题，HugoBlox 全都要。
+
+| | **AI 建站工具** (Lovable, v0, Bolt) | **传统 CMS** (WordPress, Webflow) | **HugoBlox** |
+| :--- | :---: | :---: | :---: |
+| AI 生成页面 | 能 | 不能 | **能** |
+| 输出是你能看懂的文件 | 不能 —— React 代码 | 不能 —— 锁在数据库里 | **能 —— 纯 Markdown** |
+| 无需后端服务器 | 有时 | 不行 | **纯静态 HTML** |
+| 结构化内容类型（论文、项目、团队页） | 没有 | 部分 | **20+ 种内置类型** |
+| AI 生成后人类还能轻松编辑 | 勉强 | 只能通过 CMS | **当然 —— 就是 Markdown** |
+| 永久免费托管 | 不能 | 不能 | **能** |
+| 开源 | 不是 | 不是 | **MIT 协议** |
+
+> [!IMPORTANT]
+> **一句话总结：** 别的工具要么生成你维护不了的代码，要么把内容锁进你迁不走的数据库。HugoBlox 让 AI 帮你生成页面，输出是 Tailwind + Hugo 技术栈上的纯 Markdown —— 可读、可迁移、永远属于你。
+
+---
+
+## 🧱 你能构建什么
+
+<p align="center">
+  <img src="./.github/media/templates.webp" alt="HugoBlox 站点案例" width="900">
+</p>
+
+HugoBlox 内置 **20+ 种结构化内容类型**，带完整的 Front Matter、元数据和布局。告诉 Hugo Chat 你需要什么，它会生成对应的页面：
+
+- 🚀 **落地页** —— 首屏、功能区、定价表、用户评价、CTA 模块，积木式自由组合
+- 📝 **博客与文章** —— 标签、分类、作者、SEO 元数据一步到位
+- 💼 **作品集与项目页** —— 展示你的工作成果、技术栈和配图
+- 📚 **论文页** —— 学术论文 + BibTeX/DOI 引用工作流
+- 📖 **文档站** —— 带侧边栏导航和版本控制的可搜索文档
+- 👥 **团队与个人简介** —— 头像、社交链接、发表论文列表
+- 🎤 **活动与演讲** —— 会议、研讨会、演示幻灯片
+- 🎞️ **演示幻灯片** —— 基于 Markdown 的 reveal.js 幻灯片
+- 📄 **简历 / CV** —— 结构化职业页面，可导出 PDF
+- 🔬 **Jupyter 笔记本 & LaTeX** —— 原生渲染 `.ipynb` 和数学公式页面
+
+<p align="center">
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_templates"><b>浏览全部模板</b></a>
+</p>
+
+---
+
+## 🛠️ 快速开始
+
+### 第一步：创建站点
+
+**方式 A：从模板开始**（最快）
+
+> [!TIP]
+> 选一个模板，60 秒内在浏览器中启动：
+> [**浏览模板**](https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=get_started)
+
+**方式 B：使用 CLI**（完全掌控）
+
+```bash
+# 需要 Hugo Extended 和 Node.js
+npm install -g hugoblox
+hugoblox create site
+```
+
+### 第二步：用 AI + 可视化编辑器定制
+
+<table>
+<tr>
+<td width="50%">
+
+**Hugo Chat** —— AI 页面生成
+
+用自然语言描述你的需求，Hugo Chat 会生成带正确 Front Matter、Shortcode 和 HugoBlox 积木的 Hugo 页面。
+
+> *"帮我生成一个咨询公司的落地页，包含服务介绍、客户评价和联系表单"*
+
+[**免费试用 Hugo Chat**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2)
+
+</td>
+<td width="50%">
+
+**Ownable CMS** —— VS Code 里的可视化编辑
+
+拖拽积木、实时预览、YAML 校验，全部在编辑器内完成。把 VS Code 变成可视化建站工具。
+
+1. 从 [VS Code 市场](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) 安装 Ownable CMS
+2. 打开你的 HugoBlox 项目
+3. 点击 Ownable 图标开始编辑
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="./.github/media/studio/slide-1.webp" alt="Ownable CMS —— VS Code 内的可视化编辑" width="600">
+</p>
+
+> [!NOTE]
+> **需要文档？** 查看 [**docs.ownable.dev**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs)，获取指南、配置参考和最佳实践。
+
+---
+
+## 🔓 开源、无锁定、没有套路
+
+- ✅ **MIT 协议。** 框架现在是开源的，未来也永远是。
+- ✅ **纯 Markdown 文件。** 你的内容不会被锁在数据库或私有格式里，随时可以带走。
+- ✅ **纯静态输出。** 不用维护服务器，不用给数据库打补丁，不依赖任何厂商。
+- ✅ **免费托管。** 部署到 Netlify、Vercel、GitHub Pages、Cloudflare Pages —— 全部有免费额度。
+- ✅ **AI 免费起步。** Hugo Chat 每天赠送免费消息，无需绑定信用卡。
+- ✅ **面向未来。** Markdown 从 2004 年开始就能被任何编辑器打开。你的内容会比任何平台活得更久。
+
+> [!IMPORTANT]
+> *"所有 AI 建站工具生成的 React 代码，半年后你就想扔掉。所有 CMS 把内容锁在你永远迁不走的数据库里。HugoBlox 填的就是这个空白。"*
+
+**想要更多？** 升级到 [**Pro**](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans) 解锁可视化编辑、AI 自动化、BibTeX 导入和优先支持。[对比所有计划 →](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans)
+
+---
+
+## 🌍 谁在用 HugoBlox
+
+HugoBlox 为全球的**研究人员、咨询顾问、创业者、技术布道者和团队**提供站点支持，包括：
+
+- [NVIDIA Research Labs](https://research.nvidia.com/research-labs)
+- [MIT MetaConscious Group](https://www.metaconscious.org/)
+- [King's College London](https://cai4cai.ml/)
+- [Stanford](https://profiles.stanford.edu/)、[Google](https://google.com)、[Meta](https://meta.com)、[OpenAI](https://openai.com)
+
+<sub>自 2016 年以来，已创建 150,000+ 站点。用户评分 4.9/5。</sub>
+
+> *"我们先试了 Lovable 和 v0。它们几分钟就生成了落地页 —— 但输出是 400 行看不懂的 React。Hugo Chat 生成的是 Markdown 文件，整个团队都能直接改。当天下午就上线了。托管费：0 元。"*
+> — **Priya Ramanathan**, 联合创始人 & CTO
+
+> *"我把实验室的研究方向告诉 Hugo Chat，它生成了 30 篇论文页面，BibTeX 元数据全对，还有团队介绍和新闻版块。博士后们一小时内就在编辑自己的页面了 —— 因为就是 Markdown，不需要任何培训。"*
+> — **Dr. James Park**, 首席研究科学家, 应用 AI 实验室
+
+> *"我的站点重建过四次 —— Jekyll、Gatsby、Next.js、Notion。HugoBlox 是我第一次确信不用再折腾了。我的内容就是纯 Markdown，如果五年后出现更好的方案，我带着文件就走。但到目前为止，还没有更好的。"*
+> — **Marcus Oliveira**, 高级技术布道者
+
+---
+
+<h2 align="center">🚀 准备好开始了吗？</h2>
+
+<p align="center">
+  选个模板，让 AI 生成页面，免费部署。<br/>
+  你的内容永远以 Markdown 形式属于你自己。
+</p>
+
+<p align="center">
+  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>用 AI 生成页面</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>浏览模板</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>阅读文档</b></a>
+</p>
+
+---
+
+## 社区与支持
+
+- **有问题？** 加入 [Discord](https://discord.gg/z8wNYzb) 或搜索[文档](https://docs.ownable.dev/)
+- **发现 Bug？** 提交 [Issue](https://github.com/HugoBlox/kit/issues)
+- **想贡献代码？** 阅读[贡献指南](./CONTRIBUTING.md)
+- **觉得好用？** 给这个仓库 [点个 Star](https://github.com/HugoBlox/kit) —— 帮助更多人发现它
+
+### 赞助
+
+[**❤️ 在 GitHub 上赞助**](https://github.com/sponsors/gcushen) | [**🏢 成为合作伙伴**](https://github.com/sponsors/gcushen)
+
+---
 
 ## 许可证
 
-版权所有 2016-present [George Cushen](https://georgecushen.com)。
+Copyright 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme).
+Released under the [MIT License](./LICENSE.md).
 
-[Hugo Blox Builder](https://github.com/HugoBlox/hugo-blox-builder/)存储库根据[MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md)许可证发布。
+<p align="center">
+  <sub>HugoBlox 是 Lore Labs 的商标。</sub>
+</p>
